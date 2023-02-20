@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #150b3e;
+}
+.profile-container {
+  display: flex;
+  align-items: row;
+}
+.profile-photo {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: white;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.light {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #585076;
+}
+.dark {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: rgb(155, 133, 133);
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
